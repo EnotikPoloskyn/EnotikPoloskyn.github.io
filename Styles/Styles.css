@@ -1,0 +1,54 @@
+body {
+    background-image:  url(../Images/bg.jpg);
+    background-repeat: repeat;
+
+}
+.header{
+    background-color: cornflowerblue;
+    font-size: 30px;
+    text-align: center;
+    color: aliceblue;
+    width: 600px;
+    margin: auto;
+    position: relative;
+}
+.cssImage{
+    float: left;
+}
+.Flexbox {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.FlexboxItem{
+    background-color: lightskyblue;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    flex: 200px;
+}
+.Grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    justify-items: center;
+    margin-top: 150px;
+}
+.GridItem{
+    background-color: rebeccapurple;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    height: 220px;
+    color: gainsboro;
+}
+.GridItem1 {
+    background-color: rebeccapurple;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    color: gainsboro;
+}
