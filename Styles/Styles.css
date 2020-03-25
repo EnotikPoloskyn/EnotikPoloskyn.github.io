@@ -9,7 +9,7 @@ body {
     text-align: center;
     color: aliceblue;
     width: 600px;
-    margin: auto;
+    margin: 10px auto;
     position: relative;
 }
 .cssImage{
@@ -28,27 +28,28 @@ body {
     flex: 200px;
 }
 .Grid {
+    width: 99%;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 20px;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 5%;
     justify-items: center;
-    margin-top: 150px;
+    margin-bottom: 100px;
 }
 .GridItem{
     background-color: rebeccapurple;
-    padding: 10px;
-    font-size: 17px;
+    padding: 1em;
     border-radius: 10px;
-    height: 220px;
     color: gainsboro;
 }
-.GridItem1 {
-    background-color: rebeccapurple;
-    padding: 20px;
-    font-size: 30px;
+.ImgContainer {
+    display: block;
+    width: 96%;
+    max-width: 960px;
+    margin: 10px auto;
     text-align: center;
-    border-radius: 10px;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    color: gainsboro;
+}
+.Image {
+    max-width: 24%;
+    display: inline-block;
+    height: auto;
 }

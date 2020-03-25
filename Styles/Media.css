@@ -2,10 +2,23 @@
     .Grid{
         grid-template-columns: repeat(2, 1fr);
     }
+    .header{
+        width: 500px;
+    }
+    .Image {
+        max-width: 48%;
+    }
 }
-@media (max-width: 660px) {
+@media (max-width: 600px) {
     .Grid{
         grid-template-columns: repeat(1, 90%);
         grid-gap: 1%;
+        margin-left: 25px;
+    }
+    .header{
+        width: 400px;
+    }
+    .Image {
+        max-width: 100%;
     }
 }
