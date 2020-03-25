@@ -2,10 +2,11 @@
 body {
     background-image:  url(../Images/bg.jpg);
     background-repeat: repeat;
-    background-size: cover;
     overflow-x: hidden;
 }
-
+body, html{
+    max-width: 100%;
+}
 .header{
     background-color: cornflowerblue;
     font-size: 30px;
@@ -32,7 +33,7 @@ body {
     flex: 200px;
 }
 .Grid {
-    width: 99%;
+    width: 97%;
     display: grid;
     grid-template-columns:repeat(3,1fr);
     grid-gap: 5%;
